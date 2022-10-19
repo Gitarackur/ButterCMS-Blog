@@ -53,7 +53,7 @@
     } catch(err: any) {
       throw new Error(`api error for single post--- ${err?.response?.data}`)
     } finally {
-      console.log('------working dazze-------');
+      console.log('------working-------');
     }
   });
 </script>
