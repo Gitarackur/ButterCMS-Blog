@@ -1,11 +1,11 @@
 <template>
   <div>
     <div class="flex items-center justify-between py-10 md:py-14 md:mb-14">
-      <div class="">
+      <div>
         <h1 class="heading-text">ButterCMS Blog 1</h1>
       </div>
 
-      <div class="">
+      <div>
         <NuxtLink to="/" class="route-link py-5 px-3"> create new post </NuxtLink>
       </div>
     </div>
@@ -33,7 +33,7 @@
 
 
         <div class="flex items-center justify-center pt-20">
-          <div class="">
+          <div>
             <button class="py-5 px-3"> Next Page </button>
           </div>
         </div>

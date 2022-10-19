@@ -3,20 +3,20 @@
     <div class="md:w-6/12 mx-auto">
       <div class="flex items-center justify-between py-10 md:py-6">
         <div class='py-10 md:py-20'>
-          <div class=''>
+          <div>
             <a class='cursor-pointer' @click="()=> router.go(-1)"> BACK </a>
           </div>
         </div>
 
-        <div class=''>
+        <div>
           <NuxtLink to="/" class='heading-text'>ButterCMS Blog</NuxtLink>
         </div>
       </div>
 
 
 
-      <div class=''>
-        <div class=''>
+      <div>
+        <div>
           <div class='relative inline-block w-full'>
             <img :src="post?.featured_image" class='blog-thumbnail h-20' />
             <p class='mt-8' style="color: #ccc">
